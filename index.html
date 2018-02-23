@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>二手房</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--menu-->
+<script src="js/scripts.js"></script>
+<link href="css/styles.css" rel="stylesheet">
+<!--//menu-->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Real Home Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- slide -->
+<script src="js/responsiveslides.min.js"></script>
+   <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+</head>
+<body >
+<!--header-->
+	<div class="navigation">
+			<div class="container-fluid">
+				<nav class="pull">
+					<ul>
+						<li><a  href="index.html">主页</a></li>
+						<li><a  href="about.html">关于我们</a></li>
+						<li><a  href="blog.html">日志</a></li>
+						<li><a  href="terms.html">条款</a></li>
+						<li><a  href="privacy.html">隐私</a></li>
+						<li><a  href="contact.html">关于</a></li>
+					</ul>
+				</nav>			
+			</div>
+		</div>
+
+<div class="header">
+	<div class="container">
+		<!--logo-->
+			<div class="logo">
+				<h1><a href="index.html">二手房</a></h1>
+			</div>
+		<!--//logo-->
+		<div class="top-nav">
+			<ul class="right-icons">
+				<li><span ><i class="glyphicon glyphicon-phone"> </i>18858294301</span></li>
+				<li><a  href="login.html"><i class="glyphicon glyphicon-user"> </i>登录</a></li>
+				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
+				
+			</ul>
+			<div class="nav-icon">
+				<div class="hero fa-navicon fa-2x nav_slide_button" id="hero">
+						<a href="#"><i class="glyphicon glyphicon-menu-hamburger"></i> </a>
+					</div>	
+				<!---
+				<a href="#" class="right_bt" id="activator"><i class="glyphicon glyphicon-menu-hamburger"></i>  </a>
+			--->
+			</div>
+		<div class="clearfix"> </div>
+			<!---pop-up-box---->
+			   
+				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<!---//pop-up-box---->
+				<div id="small-dialog" class="mfp-hide">
+					    <!----- tabs-box ---->
+				<div class="sap_tabs">	
+				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						  <ul class="resp-tabs-list">
+						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>所有房源</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>买房</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>租房</span></li>
+							  <div class="clearfix"></div>
+						  </ul>				  	 
+						  <div class="resp-tabs-container">
+						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+								 	<div class="facts">
+									  	<div class="login">
+											<input type="text" value="为您寻找最适合您的" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '为您寻找最适合您的';}">
+									 		<input type="submit" value="">
+									 	</div>        
+							        </div>
+						  		</div>
+							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="facts">									
+										<div class="login">
+											<input type="text" value="为您寻找最适合您的" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '为您寻找最适合您的';}">
+									 		<input type="submit" value="">
+									 	</div> 
+							        </div>	
+								 </div>									
+							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+									 <div class="facts">
+										<div class="login">
+											<input type="text" value="为您寻找最适合您的" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '为您寻找最适合您的';}">
+									 		<input type="submit" value="">
+									 	</div> 
+							         </div>	
+							    </div>
+					      </div>
+					 </div>
+					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+				    	<script type="text/javascript">
+						    $(document).ready(function () {
+						        $('#horizontalTab').easyResponsiveTabs({
+						            type: 'default', //Types: default, vertical, accordion           
+						            width: 'auto', //auto or any width like 600px
+						            fit: true   // 100% fit in a container
+						        });
+						    });
+			  			 </script>	
+				</div>
+				</div>
+				 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>
+					
+	
+		</div>
+		<div class="clearfix"> </div>
+		</div>	
+</div>
+<!--//-->
+	<div class=" header-right">
+		<div class=" banner">
+			 <div class="slider">
+			    <div class="callbacks_container">
+			      <ul class="rslides" id="slider">		       
+					 <li>
+			          	 <div class="banner1">
+			           		<div class="caption">
+					          	<h3><span>生活</span>方式</h3>
+					          	<p>您所看见的</p>
+			          		</div>
+			          	</div>
+			         </li>
+					 <li>
+			          	 <div class="banner2">
+			           		<div class="caption">
+					          	<h3><span>生活</span>方式</h3>
+					          	<p>您所看见的</p>
+			          		</div>
+			          	</div>
+			         </li>
+			         <li>
+			          	 <div class="banner3">
+			           		<div class="caption">
+					          	<h3><span>生活</span>方式</h3>
+					          	<p>您所看见的</p>
+			          		</div>
+			          	</div>
+			         </li>		
+			      </ul>
+			  </div>
+			</div>
+		</div>
+	</div>
+	 
+	<!--header-bottom-->
+	<div class="banner-bottom-top">
+			<div class="container">
+			<div class="bottom-header">
+				<div class="header-bottom">
+					<div class=" bottom-head">
+						<a href="buy.html">
+							<div class="buy-media">
+								<i class="buy"> </i>
+								<h6>买</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="buy.html">
+							<div class="buy-media">
+							<i class="rent"> </i>
+							<h6>租</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="buy.html">
+							<div class="buy-media">
+							<i class="pg"> </i>
+							<h6>旅馆</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="buy.html">
+							<div class="buy-media">
+							<i class="sell"> </i>
+							<h6>转售</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="loan.html">
+							<div class="buy-media">
+							<i class="loan"> </i>
+							<h6>住房贷款</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="buy.html">
+							<div class="buy-media">
+							<i class="apart"> </i>
+							<h6>项目</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="dealers.html">
+							<div class="buy-media">
+							<i class="deal"> </i>
+							<h6>经销商</h6>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+	</div>
+			<!--//-->
+				
+	<!--//header-bottom-->
+	
+	
+<!--//header-->
+<!--content-->
+<div class="content">
+	<div class="content-grid">
+		<div class="container">
+			<h3>最受欢迎</h3>
+				<div class="col-md-4 box_2">
+			     	 <a href="single.html" class="mask">
+			     	   	<img class="img-responsive zoom-img" src="images/pc4.jpg" alt="">
+			     	   	<span class="four">40,000￥</span>
+			     	 </a>
+			     	   <div class="most-1">
+			     	   	 <h5><a href="single.html">流行</a></h5>
+			     	    	<p>收藏</p>
+			     	   </div>
+			 </div>
+			  <div class="col-md-4 box_2">
+		     	 <a href="single.html" class="mask">
+			     	   	<img class="img-responsive zoom-img" src="images/pc5.jpg" alt="">
+			     	   	<span class="four">40,000￥</span>
+			     	 </a>
+		     	   <div class="most-1">
+			     	   	<h5><a href="single.html">流行</a></h5>
+			     	    	<p>收藏</p>
+			     	   </div>
+		     	
+		      </div>
+			  <div class="col-md-4 box_2">
+		     	 <a href="single.html" class="mask">
+			     	   	<img class="img-responsive zoom-img" src="images/pc3.jpg" alt="" >
+			     	   	<span class="four">40,000￥</span>
+			     	 </a>
+		     	   <div class="most-1">
+			     	   	 <h5><a href="single.html">流行</a></h5>
+			     	    	<p>收藏</p>
+			     	   </div>
+		     	
+		      </div>
+		 	<div class="clearfix"> </div>
+		</div>
+	</div>
+<!--service-->
+	<div class="services">
+		<div class="container">
+			<div class="service-top">
+				<h3>服务</h3>
+				<p>暂无此项功能</p>
+			</div>
+			<div class="services-grid">
+		   		<div class="col-md-6 service-top1">
+		   			<div class=" ser-grid">	
+		   				<a href="#" class="hi-icon hi-icon-archive glyphicon glyphicon-user"> </a>
+		   			</div>
+		   			<div  class="ser-top">
+		   				<h4>用户</h4>
+		   				<p>1</p>
+		   		    </div>
+					<div class="clearfix"> </div>
+		   	   </div>
+				<div class="col-md-6 service-top1">
+		   			<div class=" ser-grid">	
+		   				<a href="#" class="hi-icon hi-icon-archive glyphicon glyphicon-leaf"> </a>
+		   			</div>
+		   			<div  class="ser-top">
+		   				<h4>收藏</h4>
+		   				<p>2 </p>
+		   		    </div>
+					<div class="clearfix"> </div>
+		   		</div>
+		   	<div class="clearfix"> </div>
+		 </div>
+		 <div class="services-grid">
+			   	<div class="col-md-6 service-top1">
+			   		<div class=" ser-grid">	
+			   			<a href="#" class="hi-icon hi-icon-archive glyphicon glyphicon-cog"> </a>
+			   		</div>
+			   		<div  class="ser-top">
+			   			<h4>设置</h4>
+			   				<p>3</p>
+			   		</div>
+					<div class="clearfix"> </div>
+			   	</div>
+				<div class="col-md-6 service-top1">
+			   		<div class=" ser-grid">	
+			   			<a href="#" class="hi-icon hi-icon-archive glyphicon glyphicon-file"> </a>
+			   		</div>
+			   		<div  class="ser-top">
+			   			<h4>留言板</h4>
+			   			<p>4</p>
+			   		</div>
+					<div class="clearfix"> </div>
+			   	</div>
+		   	  <div class="clearfix"> </div>
+		 	</div>
+		</div>
+	</div>
+<!--//services-->
+<!--project--->
+	<div class="project">
+		<div class="container">
+			<h3>项目库</h3>
+				<div class="project-top">
+					<div class="col-md-3 project-grid">
+						<div class="project-grid-top">
+							 <a href="single.html" class="mask"><img src="images/ga.jpg" class="img-responsive zoom-img" alt=""/></a>
+							 <div class="col-md1">
+								 <div class="col-md2">
+									 <div class="col-md3">
+									 	<span class="star"> 4.5</span>
+									 </div>
+									 <div class="col-md4">
+									 	<strong>城建琥珀名郡</strong>
+									 	<small>100人关注</small>
+									 </div>
+									 <div class="clearfix"> </div>
+								 </div>
+								 <p>毛胚三房</p>
+								 <p class="cost">90万</p>
+								 <a href="single.html" class="hvr-sweep-to-right more">查看细节</a>
+							 </div>
+						</div>
+					</div>
+					<div class="col-md-3 project-grid">
+						<div class="project-grid-top">
+							  <a href="single.html" class="mask"><img src="images/ga1.jpg" class="img-responsive zoom-img" alt=""/></a>
+							 <div class="col-md1">
+								 <div class="col-md2">
+									 <div class="col-md3">
+									 	<span class="star"> 4.5</span>
+									 </div>
+									 <div class="col-md4">
+									 	<strong>文艺名门河畔</strong>
+									 	<small>100人关注</small>
+									 </div>
+									 <div class="clearfix"> </div>
+								 </div>
+								 <p>毛胚四房</p>
+								 <p class="cost">100万</p>
+								 <a href="single.html" class="hvr-sweep-to-right more">查看细节</a>
+							 </div>
+						</div>
+					</div>
+					<div class="col-md-3 project-grid">
+						<div class="project-grid-top">
+							  <a href="single.html" class="mask"><img src="images/ga2.jpg" class="img-responsive zoom-img" alt=""/></a>
+							 <div class="col-md1">
+								 <div class="col-md2">
+									 <div class="col-md3">
+									 	<span class="star"> 4.5</span>
+									 </div>
+									 <div class="col-md4">
+									 	<strong>御景花园北区</strong>
+									 	<small>100人关注</small>
+									 </div>
+									 <div class="clearfix"> </div>
+								 </div>
+								 <p>毛胚4房</p>
+								 <p class="cost">100万</p>
+								 <a href="single.html" class="hvr-sweep-to-right more">查看细节</a>
+							 </div>
+						</div>
+					</div>
+					<div class="col-md-3 project-grid">
+						<div class="project-grid-top">
+							  <a href="single.html" class="mask"><img src="images/ga3.jpg" class="img-responsive zoom-img" alt=""/></a>
+							 <div class="col-md1">
+								 <div class="col-md2">
+									 <div class="col-md3">
+									 	<span class="star"> 4.5</span>
+									 </div>
+									 <div class="col-md4">
+									 	<strong>万凯碧桂园</strong>
+									 	<small>50人关注</small>
+									 </div>
+									 <div class="clearfix"> </div>
+								 </div>
+								 <p>毛胚4房</p>
+								 <p class="cost">100万</p>
+								 <a href="single.html" class="hvr-sweep-to-right more">查看细节</a>
+							 </div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>				
+		</div>
+	</div>
+<!--//project-->
+<!--partners-->
+	<div class="content-bottom1">
+		<h3>合作伙伴</h3>
+	 		<div class="container">
+				<h4>欢迎您的加入</h4>
+			</div>
+		</div>	
+<!--//partners-->	
+	</div>
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-top-at">
+			<div class="col-md-3 amet-sed">
+				<h4>关于我们</h4>
+				<ul class="nav-bottom">
+				</ul>	
+			</div>
+			<div class="col-md-3 amet-sed ">
+				<h4>联系我们</h4>
+					<ul class="nav-bottom">
+						<li><a href="#">手机</a></li>
+						<li><a href="#">邮箱</a></li>
+					</ul>	
+			</div>
+			<div class="col-md-3 amet-sed">
+				<h4>商业支持</h4>
+					<ul class="nav-bottom">
+					</ul>	
+			</div>
+			<div class="col-md-3 amet-sed ">
+				<h4>隐私服务</h4>
+				   <ul class="nav-bottom">
+					</ul>
+			</div>
+		<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="col-md-4 footer-logo">
+				<h2><a href="index.html">二手房</a></h2>
+			</div>
+			<div class="col-md-8 footer-class">
+				<p>© 2017-2018 二手房 - </p>
+			</div>
+		<div class="clearfix"> </div>
+	 	</div>
+	</div>
+</div>
+<!--//footer-->
+</body>
+</html>
